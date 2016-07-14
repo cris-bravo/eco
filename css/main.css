@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/**
+ * Aqui se  definiran las variables necesarias utilizadas a lo largo de todo el
+ * proyecto, Colores , fuentes , tamaños de breakpoints, etc.
+ */
+/**
+ * Aqui se colocara el codigo de css que se utiliza para modificar las 
+ * clases propias del framework que se este utilizando. La meta es que 
+ * si tengo componentes propios que no pertenecen a el framework puedo 
+ * colocarlos en mis capetas personales sin que afecte a ninguna de estas 
+ * clases 
+ */
+nav .brand-logo {
+  color: #242020;
+  margin-left: 0.625rem; }
+
+#nosotros_s {
+  background-color: #8FD03C; }
+
+/**
+ * Esta seccion es para usar mis propios estilos en la barra de navegacion 
+ * sin utilizar las clases del framework de materialize
+ * Utilizar frameworks tiende a ser algo desventajoso por lo visto 
+ */
+nav {
+  background-color: #E9EAE4; }
+
+.nav-font-color {
+  color: #242020; }
+
+.nav-font-size {
+  font-size: 1.125rem; }
+
+nav .material-icons {
+  color: black; }
